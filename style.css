@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+body{
+    margin: 0px 5px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+/* ==============heading nemu================ */
+.logo{
+    width: 15%;
+    height: 15%;
+}
+
+.header{
+    margin-bottom: 15px;
+    padding: 10px ;
+    background-color: rgb(11, 255, 174);
+    text-align: right;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px ;
+}
+.menu{
+    color: black;
+    word-spacing: 8px;
+}
+
+
+/* ==================bio part================= */
+
+
+.mainpart{
+    text-align: justify ;
+    text-decoration: solid;
+}
+h4{
+    text-decoration: underline solid black ;
+}
+.bio{
+    margin: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(7, 255, 172, 0.329);
+    box-shadow:  10px 10px 10px rgba(210, 105, 30, 0.425);
+}
+.note{
+    border: 2px solid black;
+}
+
+
+/* =====================about page================ */
+
+
+.comandhadding{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: rgba(7, 255, 172, 0.329);
+    box-shadow:  10px 10px 10px rgba(210, 105, 30, 0.425);
+}
+.comandhadding h3{
+    font-size: larger;
+    font-weight: 800;
+}
+.comandhadding h5{
+    font-size: large;
+    text-decoration: underline;
+}
+
+
+/* ===============from============== */
+
+.from{
+    margin: 8px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(7, 255, 172, 0.329);
+    box-shadow:  10px 10px 10px rgba(210, 105, 30, 0.425);
+}
