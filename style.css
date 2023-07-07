@@ -32,12 +32,18 @@ body{
     height: 40px;
     float: left;
 }
-
-.menu{
-    text-align: right;
-    word-spacing: 8px;
-    padding-right: 15px ;
+nav>ul{
+    display: flex;
+    padding: 10px;
 }
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    text-align: center;
+    color: black;
+}
+
+
 
 
 /* ==================bio part================= */
@@ -50,7 +56,7 @@ body{
 h4{
     text-decoration: underline solid black ;
 }
-.bio{
+#am{
     margin: 8px;
     margin-bottom: 15px;
     padding: 10px;
@@ -58,9 +64,19 @@ h4{
     background-color: rgba(7, 255, 172, 0.329);
     box-shadow:  10px 10px 10px rgba(210, 105, 30, 0.425);
 }
-.note{
-    border: 2px solid black;
+.bio{
+    width: 45%;
+    float: left;
+    height: 370px;
+    margin: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(7, 255, 172, 0.329);
+    box-shadow:  10px 10px 10px rgba(210, 105, 30, 0.425);
 }
+
+
 
 
 /* =====================about page================ */
@@ -97,7 +113,6 @@ h4{
 
 .formfirstpart{
     width: 100%;
-    background-color: blueviolet;
     display: block;
 }
 
@@ -123,3 +138,7 @@ h4{
     justify-content: center;
     align-items: center;
 }
+.manesecend{
+    margin-top: 20px;
+}
+

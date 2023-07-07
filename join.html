@@ -14,18 +14,18 @@
                 <img class="logo" src="picture/logo.png" alt="logo commig soon">
             </nav>
             <nav class="menu">
-                <menu>
-                    <a href="index.html">Home</a>
-                    <!-- <a href="blog.html">My tore</a> -->
-                    <a href="join.html">About</a>
-                </menu>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tore.html">Tores</a></li>
+                    <li><a href="join.html">About</a></li>
+                </ul>
             </nav>
         </header>
 
     <div>
         <header class="comandhadding">
             <h3> If you want to join us, drop your cv on theis formate</h3><br>
-            <h5>Feel the information</h5>
+            <h5>Fill the information</h5>
         </header>
 
         <form class="from">
@@ -48,21 +48,23 @@
                 </nav>
 
             </div>
-
-            <div class="maneing">
-
-                <label for="id">Your NID</label><br>
-                <input type="text" placeholder="Enter your nid number" required><br>
-
-                <label for="id"></label>Father NID<br>
-                <input type="text" placeholder="Enter your father nid number" required><br>
-                
-                <label for="id"></label>Mother NID<br>
-                <input type="text" placeholder="Enter your mother nid number" required><br>
-            </div>
+            
             <div>
-                <label for="text">Present Address</label>
-                <input type="text" placeholder="enter your present address" required>
+                <div class="mane manesecend">
+    
+                    <label for="id">Your NID</label><br>
+                    <input type="text" placeholder="Enter your nid number" required><br>
+    
+                    <label for="id"></label>Father NID<br>
+                    <input type="text" placeholder="Enter your father nid number" required><br>
+                    
+                    <label for="id"></label>Mother NID<br>
+                    <input type="text" placeholder="Enter your mother nid number" required><br>
+                </div>
+                <div class="img manesecend">
+                    <label for="text">Present Address</label>
+                    <input type="text" placeholder="Enter your present address" required>
+                </div>
             </div>
             
             <div>
@@ -76,21 +78,15 @@
                         </tr>
                         <tr>
                             <th>SSC</th>
-                            <th></th>
-                            <th></th>
-                            <!-- <th></th> -->
+                            <th> <input type="text" placeholder="Institude" required></th>
+                            <th> <input type="text" placeholder="Result" required></th>
+                            <th> <input type="text" placeholder="Passing year" required></th>
                         </tr>
                         <tr>
                             <th>HSC</th>
-                            <th></th>
-                            <th></th>
-                            <!-- <th></th> -->
-                        </tr>
-                        <tr>
-                            <!-- <th>HONARS</th> -->
-                            <th></th>
-                            <th></th>
-                            <th></th>
+                            <th> <input type="text" placeholder="Institude" required></th>
+                            <th> <input type="text" placeholder="Result" required></th>
+                            <th> <input type="text" placeholder="Passing year" required></th>
                         </tr>
                     </table>
                 </nav>
@@ -98,6 +94,9 @@
                     <label for="text">Experiance</label>
                     <input type="text" placeholder="Enter your experiance" required>
 
+                    <label for="Description">
+                        <textarea name="Description" id="" cols="30" rows="10"></textarea>
+                    </label>
                     <label for="text">Description</label>
                     <input type="text" placeholder="Wirye abouyt your self">
                 </nav>
